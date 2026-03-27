@@ -1,0 +1,13 @@
+[build]
+  # Leave blank if package.json is in the root of your repo
+  base = "" 
+  
+  # The command Next.js uses to build
+  command = "npm run build"
+  
+  # For a standard Next.js build, use .next
+  # If you use 'output: export' in next.config.js, change this to "out"
+  publish = ".next"
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
