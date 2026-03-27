@@ -6,6 +6,5 @@
   
   # For a standard Next.js build, use .next
   # If you use 'output: export' in next.config.js, change this to "out"
-  [build]
   command = "npm run build"
   publish = "out"
